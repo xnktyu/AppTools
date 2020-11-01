@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal">
+
+				<Button
+					android:id="@+id/infos"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:paddingTop="20dp"
+					android:paddingBottom="20dp"
+					android:text="本机信息"/>
+
+				<Button
+					android:id="@+id/apps"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:paddingTop="20dp"
+					android:paddingBottom="20dp"
+					android:text="本机应用"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal">
+
+				<Button
+					android:id="@+id/host"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:paddingTop="20dp"
+					android:paddingBottom="20dp"
+					android:text="HOST"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal">
+
+				<Button
+					android:id="@+id/getNetIp"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:paddingTop="20dp"
+					android:paddingBottom="20dp"
+					android:text="getNetIp"/>
+
+				<Button
+					android:id="@+id/getNetIp2"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:paddingTop="20dp"
+					android:paddingBottom="20dp"
+					android:text="getNetIp2"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal">
+
+				<Button
+					android:id="@+id/testPen"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:paddingTop="20dp"
+					android:paddingBottom="20dp"
+					android:text="TestPen"/>
+
+				<Button
+					android:id="@+id/board"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:paddingTop="20dp"
+					android:paddingBottom="20dp"
+					android:text="Board"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal">
+
+				<Button
+					android:id="@+id/hraShowNav"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:paddingTop="20dp"
+					android:paddingBottom="20dp"
+					android:text="HRA Show Nav"/>
+
+				<Button
+					android:id="@+id/hraHideNav"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:paddingTop="20dp"
+					android:paddingBottom="20dp"
+					android:text="HRA Hide Nav"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal">
+
+				<Button
+					android:id="@+id/checkRoot"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:paddingTop="20dp"
+					android:paddingBottom="20dp"
+					android:text="check root"/>
+
+				<Button
+					android:id="@+id/adbScreencap"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:paddingTop="20dp"
+					android:paddingBottom="20dp"
+					android:text="adb screencap"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal">
+			</LinearLayout>
+
+
+			<TextView
+				android:id="@+id/text"
+				android:layout_width="300px"
+				android:layout_height="wrap_content"
+				android:background="#ff0"
+				android:text="kkkkkkkkkkkkk"
+				android:textColor="#000"
+				android:textSize="30sp"/>
+
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

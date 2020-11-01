@@ -1,0 +1,1 @@
+include ':app', ':base', ':kit', ':player', ':board'

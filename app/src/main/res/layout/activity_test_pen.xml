@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#fff"
+	android:orientation="vertical">
+
+	<com.lys.view.TestPenView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:gravity="center"
+		android:text="用手指点击"
+		android:textSize="30sp"/>
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="2px"
+		android:background="#888"/>
+
+	<com.lys.view.TestPenView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:gravity="center"
+		android:text="用笔点击"
+		android:textSize="30sp"/>
+
+</LinearLayout>
